@@ -19,7 +19,7 @@ function play() {
     result();
     }
 
-    
+
     })
       })}
 
@@ -47,7 +47,7 @@ function result() {
 
 $("#reset").on("click", function () {
 
-  $("td").html(" ")
+  $("td").html("")
   $("td").removeClass("X")
   goes = 0;
 
